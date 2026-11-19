@@ -1,0 +1,5 @@
+cd ~/ros_sarrus
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+ros2 launch as3_description view_gazebo_tcp_xyz_theta.launch.py
